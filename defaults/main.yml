@@ -1,2 +1,7 @@
 ---
 # defaults file for ansible-nginx-default
+
+nginx_sites_path: /etc/nginx/sites
+nginx_locations_path: /etc/nginx/sites-enabled
+nginx_default_servername: "{{ ansible_fqdn }}"
+nginx_default_ssl: yes
