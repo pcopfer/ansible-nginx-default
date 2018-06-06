@@ -16,7 +16,7 @@ A description of the settable variables for this role should go here, including 
 Dependencies
 ------------
 
-- ``rixx.nginx-base``: https://github.com/rixx/ansible-nginx-base
+- ``pcopfer.nginx-default``: https://github.com/rixx/ansible-nginx-base
 
 Example Playbook
 ----------------
@@ -25,7 +25,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: pcopfer.nginx-default }
+         - role: pcopfer.nginx-default
 
 License
 -------
