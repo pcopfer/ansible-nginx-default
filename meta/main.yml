@@ -58,5 +58,5 @@ dependencies:
   - src: git@github.com:rixx/ansible-nginx-base.git
     scm: git
     name: ansible-nginx-base
-    version: 8cebc2292f3c2867bfd13dd2e900d6194e508cbf
+    version: 9820db35863fa26b9561120a5c0052975dd61ca5
 
