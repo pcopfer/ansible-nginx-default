@@ -8,7 +8,6 @@ server {
   access_log  /var/log/nginx/{{ nginx_default_servername }}.access.log;
   error_log   /var/log/nginx/{{ nginx_default_servername }}.error.log;
 
-  ssl on;
   ssl_certificate /etc/ssl/letsencrypt/certs/{{ nginx_default_servername }}/fullchain.pem;
   ssl_certificate_key /etc/ssl/letsencrypt/certs/{{ nginx_default_servername }}/privkey.pem;
 }
